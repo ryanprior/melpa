@@ -1,0 +1,10 @@
+(guix-packaging
+ :fetcher github
+ :repo "ryanprior/emacs-guix-packaging"
+ :files (:defaults
+         ("snippets"
+          ("markdown-mode" "markdown-mode/*")
+          ("org-mode" "org-mode/*")
+          ("scheme-mode" "scheme-mode/*")
+          ("sgml-mode" "sgml-mode/*")
+          ("web-mode" "web-mode/*"))))
